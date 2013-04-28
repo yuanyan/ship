@@ -1,0 +1,18 @@
+{
+    "name": "svn",
+    "description": "A svn client",
+    "version": "0.1.0",
+    "main": "index.html",
+    "window": {
+        "icon": "icon/app.png",
+        "toolbar": false,
+        "frame": false,
+        "width": 800,
+        "height": 600
+    },
+    "dependencies": {
+        "underscore": "*",
+        "date-utils": "*",
+        "iconv-lite": "*"
+    }
+}

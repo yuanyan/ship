@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SVN</title>
+
+        <link href="css/style.css" rel="stylesheet">
+
+        <link href="css/mergely.css" rel="stylesheet">
+        <link href="css/codemirror.css" rel="stylesheet">
+
+        <link href="css/themes/neat.css" rel="stylesheet">
+        <link href="css/themes/elegant.css" rel="stylesheet">
+        <link href="css/themes/erlang-dark.css" rel="stylesheet">
+        <link href="css/themes/night.css" rel="stylesheet">
+        <link href="css/themes/monokai.css" rel="stylesheet">
+        <link href="css/themes/cobalt.css" rel="stylesheet">
+        <link href="css/themes/eclipse.css" rel="stylesheet">
+        <link href="css/themes/rubyblue.css" rel="stylesheet">
+        <link href="css/themes/lesser-dark.css" rel="stylesheet">
+        <link href="css/themes/xq-dark.css" rel="stylesheet">
+        <link href="css/themes/ambiance.css" rel="stylesheet">
+        <link href="css/themes/blackboard.css" rel="stylesheet">
+        <link href="css/themes/vibrant-ink.css" rel="stylesheet">
+        <link href="css/themes/solarized.css" rel="stylesheet">
+        <link href="css/themes/twilight.css" rel="stylesheet">
+
+        <link href="css/jQueryFileTree.css" rel="stylesheet">
+
+        <script src="lib/jquery-1.9.1.min.js"></script>
+
+        <script src="lib/codemirror.js"></script>
+        <script src="lib/addon/mode/loadmode.js"></script>
+        <script src="lib/mergely.js"></script>
+        <script src="lib/jQueryFileTree.js"></script>
+
+
+        <script>
+            global.$ = $;
+            global.gui = require('nw.gui')
+
+            var app = require('./src/app.js');
+
+            window.addEventListener('load', function() { 
+                new app();
+            }, false);
+
+            //show dev tools with ctrl+alt + j
+            $(window.document).keydown(function (e) {
+                if (e.altKey && e.ctrlKey && (e.which === 10 || e.keyCode === 74)) {
+                    global.gui.Window.get().showDevTools();
+                }
+            });
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
