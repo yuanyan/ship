@@ -5,6 +5,10 @@
 ![Diff](https://raw.github.com/moonsspoon/node-svn-webkit/master/screenshots/diff.png)
 ![Repositories](https://raw.github.com/moonsspoon/node-svn-webkit/master/screenshots/repositories.png)
 
+### Downloads
+
+Run `make` downloads node-webkit for all platforms and installjammer (that is used for building crossplatform installers).
+
 ### Build
 
 Execute `npm install`
