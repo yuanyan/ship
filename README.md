@@ -5,5 +5,5 @@
 
 
 ### Copyright
-* https://github.com/yuanyan/svn
+* https://github.com/yuanyan/ship
 * https://github.com/moonsspoon/node-svn-webkit
