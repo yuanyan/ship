@@ -19,6 +19,6 @@ will creates the folder ```release``` that contains all the necessary files to b
 ### Copyright
 * https://github.com/yuanyan/ship
 * https://github.com/moonsspoon/node-svn-webkit
-*[7-zip](http://www.7-zip.org/)
-*[Anolis Resourcer](http://www.anol.is/)
+* [7-zip](http://www.7-zip.org/)
+* [Anolis Resourcer](http://www.anol.is/)
 
