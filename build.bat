@@ -11,7 +11,7 @@ for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1)
   set "DEL=%%a"
 )
 
-call :ColorText 0C "nodebob v0.1"
+call :ColorText 0C "Build start"
 echo.
 call :ColorText 0C "---"
 echo.

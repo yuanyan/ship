@@ -5,8 +5,8 @@
     "main": "index.html",
     "window": {
         "icon": "app.ico",
-        "toolbar": false,
-        "frame": false,
+        "toolbar": true,
+        "frame": true,
         "width": 800,
         "height": 600
     },
